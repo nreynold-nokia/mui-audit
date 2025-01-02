@@ -63,6 +63,22 @@ def write_results_to_txt_file(results, output_file):
 
             f.write("\n")
 
+# List of components with counts
+def get_metadata(results):
+
+    metadata = {}
+    for filename, import_list in results.items():
+        for mui_component in import_list:
+            if mui_component not in metadata:
+                metadata[mui_component] = 1
+            else:
+                metadata[mui_component] += 1
+    return metadata
+
+
 if __name__ == "__main__":
     results = search_files_for_imports(directory_to_search)
+    metadata = get_metadata(results)
+    print(metadata)
+    results['metadata'] = metadata
     write_results_to_json(results, output_file)

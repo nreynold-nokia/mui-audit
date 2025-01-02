@@ -1,0 +1,5091 @@
+{
+    "pipedream/ui/src/app/lib/genome/genome-info.jsx": [
+        "ExpandLess",
+        "ExpandMore",
+        "IconButton",
+        "InfoIcon"
+    ],
+    "pipedream/ui/src/app/lib/genome/genome-dialog.jsx": [
+        "CloseIcon",
+        "Dialog",
+        "DialogContent",
+        "DialogTitle",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/style-guide/theme.jsx": [
+        "",
+        "Fade",
+        "MuiThemeProvider",
+        "StylesProvider",
+        "blue",
+        "blueGrey",
+        "createPalette",
+        "createTheme",
+        "green",
+        "grey",
+        "jssPreset",
+        "orange",
+        "red"
+    ],
+    "pipedream/ui/src/app/style-guide/dimension-positions-selector/banner.jsx": [
+        "Typography",
+        "lighten",
+        "red"
+    ],
+    "pipedream/ui/src/app/style-guide/dimension-positions-selector/dimension-positions-table.jsx": [
+        "Checkbox",
+        "FormControl",
+        "FormControlLabel",
+        "LaunchIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/dimension-positions-selector/dimension-select.jsx": [
+        "ArrowIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/sankey-diagram-helpers.mjs": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/sunburst.jsx": [
+        "BackIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/stat.jsx": [
+        "CircularProgress",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/multi-stat.jsx": [
+        "MUISkeleton",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/matrix.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/map-chart.jsx": [
+        "blue",
+        "green",
+        "orange",
+        "red",
+        "yellow"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/solid-gauge-chart.jsx": [
+        "TrendingDownIcon",
+        "TrendingFlatIcon",
+        "TrendingUpIcon",
+        "green",
+        "grey",
+        "red",
+        "yellow"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/shared.jsx": [
+        "TrendingDownIcon",
+        "TrendingFlatIcon",
+        "TrendingUpIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/sunburst/sunburst-legend.jsx": [
+        "Collapse"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/time-chart-tooltip/tooltip-table-row.tsx": [
+        "TableRow"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/time-chart-tooltip/tooltip.tsx": [
+        "",
+        "Table",
+        "TableBody",
+        "TableContainer",
+        "TableHead",
+        "TableRow"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/time-chart-tooltip/tooltip-table-body.tsx": [
+        "TableRow"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/time-chart-tooltip/styled-components.tsx": [
+        "Box",
+        "BoxProps",
+        "Paper",
+        "TableCell",
+        "Typography",
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/time-chart-tooltip/line-symbol.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/style-guide/visualizations/matrix/matrix-sort-button.jsx": [
+        "ArrowDownward"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-cell.spec.jsx": [
+        "blueGrey"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-row.tsx": [
+        "",
+        "Checkbox",
+        "Radio",
+        "TableCell as MUITableCell",
+        "TableRow as MUITableRow",
+        "lighten",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/table/column-filter-menu.tsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-head.tsx": [
+        "Checkbox",
+        "List",
+        "ListItem",
+        "ListItemText",
+        "MUITableCell",
+        "MUITableHead",
+        "Popover",
+        "TableRow",
+        "TableSortLabel",
+        "Theme",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-styles.ts": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-pagination-actions.tsx": [
+        "FirstPageIcon",
+        "IconButton",
+        "KeyboardArrowLeft",
+        "KeyboardArrowRight",
+        "LastPageIcon",
+        "TablePaginationActionsProps as MuiTablePaginationActionsProps"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table.tsx": [
+        "",
+        "Box",
+        "Table as MUITable",
+        "TableBody",
+        "TableFooter",
+        "TablePagination as Pagination",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/table/cells/number-cell.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-cell/cell-content.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-cell/column-drag-and-drop.tsx": [
+        "Skeleton"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-cell/table-cell-utils.tsx": [
+        "DragIndicatorIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/table/table-cell/table-cell-styled.tsx": [
+        "MUITableCell",
+        "blue",
+        "blueGrey"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-multi.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-simple-footer.jsx": [
+        "ArrowForward",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-chips.jsx": [
+        "Collapse",
+        "MuiChip"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-drop-down.jsx": [
+        "Paper",
+        "Popper"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-footer.jsx": [
+        "ArrowIcon",
+        "LaunchIcon",
+        "Typography",
+        "grey",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-header.jsx": [
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-base.jsx": [
+        "ArrowDropDownIcon",
+        "CircularProgress",
+        "ClearIcon",
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-item.jsx": [
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-suggest/auto-suggest-group.jsx": [
+        "ListSubHeader",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/popup/popup.tsx": [
+        "ClickAwayListener",
+        "Popper",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/popup/types.ts": [
+        "",
+        "ButtonProps",
+        "DialogContentProps",
+        "PaperProps",
+        "PopperProps",
+        "TypographyProps"
+    ],
+    "pipedream/ui/src/app/style-guide/popup/hooks/useStyles.ts": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/popup/components/close-button.tsx": [
+        "Close as CloseIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/popup/components/styled.tsx": [
+        "",
+        "DialogActions",
+        "DialogContent",
+        "DialogTitle",
+        "IconButton as MUIIconButton",
+        "Paper",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/logic-tags/logic-tags.jsx": [
+        "pink",
+        "purple",
+        "red"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-refresh/auto-refresh-timer.tsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/auto-refresh/refresh-button.tsx": [
+        "CircularProgress",
+        "UpdateIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/button/clickable-text.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/button/button-types.ts": [
+        "",
+        "ButtonProps as MUIButtonProps",
+        "OverridableComponent",
+        "SvgIconTypeMap"
+    ],
+    "pipedream/ui/src/app/style-guide/button/drop-down-menu.jsx": [
+        "HelpOutlineIcon",
+        "MenuItem",
+        "Paper",
+        "Popper",
+        "Typography",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/button/split-button.jsx": [
+        "ButtonGroup"
+    ],
+    "pipedream/ui/src/app/style-guide/button/split-button-types.ts": [
+        "ButtonProps as MUIButtonProps"
+    ],
+    "pipedream/ui/src/app/style-guide/button/copy-clipboard-button.jsx": [
+        "CheckIcon",
+        "IconButton",
+        "SvgIcon",
+        "Tooltip",
+        "green"
+    ],
+    "pipedream/ui/src/app/style-guide/button/button-base.jsx": [
+        "Badge",
+        "Button",
+        "CircularProgress",
+        "CloseIcon",
+        "DeleteIcon",
+        "EditIcon",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/style-guide/button/close-button.jsx": [
+        "CloseIcon",
+        "IconButton",
+        "Tooltip"
+    ],
+    "pipedream/ui/src/app/style-guide/button/toggle-button.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/style-guide/button/danger-button.jsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/button/drop-down-button.jsx": [
+        "ArrowDropDownIcon",
+        "ClickAwayListener"
+    ],
+    "pipedream/ui/src/app/style-guide/dialog/dialog.jsx": [
+        "CloseIcon",
+        "IconButton",
+        "MUIDialogTitle",
+        "MuiDialog",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/animation/fade.jsx": [
+        "MUIFade"
+    ],
+    "pipedream/ui/src/app/style-guide/sidebar-nav/sidebar-nav.jsx": [
+        "Collapse",
+        "ExpandLess",
+        "ExpandMore",
+        "LaunchIcon",
+        "List",
+        "Typography",
+        "_ListItem",
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/sidebar-nav/sidebar-header.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/time-select/time-range-select.jsx": [
+        "Box",
+        "InputLabel",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/time-select/now-checkbox.styles.tsx": [
+        "MUICheckBoxIcon",
+        "MUICheckBoxOutlineBlankIcon",
+        "MUICheckbox",
+        "MUIFormControlLabel",
+        "blue",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/landing-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/style-guide.jsx": [
+        "styled"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/shared/unordered-list.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/shared/demo-container.jsx": [
+        "Collapse"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/shared/anchor-header.jsx": [
+        "LinkIcon",
+        "Typography",
+        "styled"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/shared/source-button.jsx": [
+        "CodeIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/shared/extra-info-container.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/shared/props-table.jsx": [
+        "Table",
+        "TableBody",
+        "TableCell",
+        "TableHead",
+        "TableRow"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/shared/code-highlight.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/map-chart-page.jsx": [
+        "CodeIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/multi-stat-page.jsx": [
+        "FormControlLabel",
+        "Grid",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/column-page.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/scatter-plot-page.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/matrix-page.jsx": [
+        "FormControlLabel",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/sparkline-page.demo.jsx": [
+        "Table",
+        "TableBody",
+        "TableCell",
+        "TableHead",
+        "TableRow"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/time-chart-page.jsx": [
+        "FormControlLabel",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/treemap-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/visualizations/stat-page.jsx": [
+        "CodeIcon",
+        "FormControlLabel",
+        "Grid",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/column-drag-and-drop-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/selection-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/table-page.tsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/filter-columns-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/footer-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/sorting-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/pagination-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/status-columns-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/table/drag-and-drop-demo.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/auto-suggest/auto-suggest-simple-page.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/auto-suggest/auto-suggest-multi-simple-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/auto-suggest/auto-suggest-base-page.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/auto-suggest/auto-suggest-grouping-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/auto-suggest/auto-suggest-multi-page.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/empty-states/empty-states-page.jsx": [
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/typography/document-title.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/typography/page-title.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/tags/tags-page.jsx": [
+        "FormControlLabel",
+        "PolicyIcon",
+        "Switch",
+        "amber",
+        "blue",
+        "blueGrey",
+        "brown",
+        "cyan",
+        "deepOrange",
+        "deepPurple",
+        "green",
+        "grey",
+        "indigo",
+        "lightBlue",
+        "lightGreen",
+        "lime",
+        "orange",
+        "pink",
+        "purple",
+        "red",
+        "teal",
+        "yellow"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/onboarding-cards/onboarding-cards-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/transfer-list/transfer-list-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/transfer-list/transfer-list.demo.jsx": [
+        "AppleIcon",
+        "Box",
+        "ListSubheader"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/displays/displays-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/displays/generic-display-demo.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/customization/palette-page.jsx": [
+        "Box",
+        "Grid",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/time-range-select/time-range-select-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/navigation/sidebar-nav.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/navigation/breadcrumbs.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/docs/query-feedback/query-feedback-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/tooltip/info-tooltip.jsx": [
+        "OpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/tooling/data/time/time-page.jsx": [
+        "Box",
+        "FormControl",
+        "InputLabel",
+        "MenuItem",
+        "Select",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/tooling/feedback/notifications/notifications-page.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/tooling/hooks/infinite-scroll.demo.jsx": [
+        "Box",
+        "Grid",
+        "List",
+        "ListItem",
+        "ListItemText",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/tooling/hooks/infinite-scroll-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/alert/alert-list.jsx": [
+        "List"
+    ],
+    "pipedream/ui/src/app/style-guide/alert/alert-list-item.jsx": [
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "Typography",
+        "WarningIcon",
+        "orange"
+    ],
+    "pipedream/ui/src/app/style-guide/alert/display-alert-list.jsx": [
+        "orange"
+    ],
+    "pipedream/ui/src/app/style-guide/onboarding-card/onboarding-card.jsx": [
+        "ClearIcon",
+        "IconButton",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/toggle-timechart/toggle-timechart.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/typography/typography.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/tag/tag.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/multi-select-menu/multi-select-menu.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "MUICheckbox",
+        "Popover",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/transfer-list/transfer-list-actions.jsx": [
+        "ChevronLeft",
+        "ChevronRight",
+        "DoubleArrowIcon",
+        "Grid",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/transfer-list/transfer-list.spec.jsx": [
+        "AppleIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/transfer-list/transfer-list.jsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/style-guide/transfer-list/virtualized-list.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/style-guide/transfer-list/non-virtualized-list.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/style-guide/transfer-list/transfer-list-item.jsx": [
+        "MuiListItem",
+        "blue",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/modal/confirmation-modal.jsx": [
+        "DialogActions",
+        "DialogContent",
+        "DialogTitle",
+        "Paper",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/layout/skeletons.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/layout/containers.jsx": [
+        "MUIPaper",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/components/table/table-selection/table-selection-dialog.tsx": [
+        "Box",
+        "ButtonProps",
+        "DialogActions",
+        "DialogContent",
+        "Paper",
+        "Typography",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/table/table-selection/table-selection.tsx": [
+        "FormControl",
+        "MenuItem",
+        "Select",
+        "grey",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/table/table-selection/docs/table-selection-page.jsx": [
+        "FormControlLabel",
+        "Grid",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/accordion/accordion.jsx": [
+        "ExpandMoreIcon",
+        "MuiAccordion",
+        "MuiAccordionActions",
+        "MuiAccordionDetails",
+        "MuiAccordionSummary",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/accordion/basic-accordion.tsx": [
+        "AccordionDetails",
+        "AccordionSummary",
+        "ExpandMoreIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/accordion/docs/accordion-drawer.demo.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/accordion/docs/accordion-page.demo.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/accordion/docs/accordion-page.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/card/card.tsx": [
+        "MuiCard"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/card/card-content.tsx": [
+        "MuiCardContent"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/card/card-header.tsx": [
+        "MuiCardHeader",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/card/docs/card-page.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/surfaces/card/docs/card-page.demo.jsx": [
+        "MoreVertIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/pdf-export/pdf-export.jsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/pdf-export/pdf-export-utils.jsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/pdf-export/docs/pdf-export-page.jsx": [
+        "Alert",
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/progress/linear-progress.jsx": [
+        "Box",
+        "MuiLinearProgress",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/progress/circular-progress.tsx": [
+        "Box",
+        "MuiCircularProgress",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/progress/progress-value.jsx": [
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/progress/docs/linear-progress.demo.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/progress/docs/circular-progress.demo.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/progress/docs/progress-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/status-indicator/indicator.spec.jsx": [
+        "ArrowUpwardIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/status-indicator/status-indicator.tsx": [
+        "ArrowDownwardIcon",
+        "ArrowUpwardIcon",
+        "CachedIcon",
+        "CheckIcon",
+        "CloseIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/status-indicator/docs/status-indicator.demo.tsx": [
+        "Table",
+        "TableBody",
+        "TableCell",
+        "TableHead",
+        "TableRow"
+    ],
+    "pipedream/ui/src/app/style-guide/components/feedback/status-indicator/docs/indicator-demo.tsx": [
+        "ArrowDownward",
+        "ArrowUpward",
+        "Check",
+        "Close"
+    ],
+    "pipedream/ui/src/app/style-guide/components/protected-objects/docs/protected-objects-selector-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/filter-button-dropdown/filter-menu.tsx": [
+        "Box",
+        "Paper",
+        "Popper",
+        "grey",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/filter-button-dropdown/filter-button-dropdown.tsx": [
+        "ClickAwayListener",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/filter-button-dropdown/constants.ts": [
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/filter-button-dropdown/filter-list.tsx": [
+        "Box",
+        "Checkbox",
+        "FormControlLabel",
+        "List",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/filter-button-dropdown/docs/filter-button-dropdown.demo.jsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/style-guide/components/filter-button-dropdown/docs/filter-button-dropdown-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/auto-refresh-controls/auto-refresh-controls.tsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/description-list/description-list.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/description-list/docs/description-list-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/badge/badge.jsx": [
+        "blueGrey",
+        "grey",
+        "red"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/country-flag/country-flag.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/country-flag/docs/country-flag-page.jsx": [
+        "Box",
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/chip/chip-types.ts": [
+        "ChipProps as MUIChipProps"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/chip/status-indicator-light.jsx": [
+        "FiberManualRecordIcon",
+        "RadioButtonUncheckedIcon",
+        "styled"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/chip/filter-chip.jsx": [
+        "Chip"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/chip/chip.jsx": [
+        "MuiChip",
+        "blueGrey",
+        "styled"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/chip/slice-control-chip.jsx": [
+        "Chip",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/chip/docs/status-indicator-light.demo.jsx": [
+        "Box",
+        "FormControlLabel",
+        "Grid",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/truncated-list/truncated-list.jsx": [
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/data-display/truncated-list/docs/truncated-list.demo.jsx": [
+        "Box",
+        "Grid",
+        "PolicyIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/components/inputs/search/search.tsx": [
+        "ExtendButtonBase",
+        "FormControl",
+        "InputAdornment",
+        "MUICancelRoundedIcon",
+        "MUISearchIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/components/inputs/nested-checkboxes/nested-checkboxes.jsx": [
+        "ArrowDropDownIcon",
+        "ArrowRightIcon",
+        "Box",
+        "Checkbox",
+        "IconButton",
+        "LockIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/inputs/nested-checkboxes/docs/nested-checkboxes-page.jsx": [
+        "FormControlLabel",
+        "Grid",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/link/docs/link-page.demo.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/link/docs/link-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/vertical-stepper/vertical-stepper.jsx": [
+        "CheckCircle",
+        "CheckCircleOutline",
+        "Error",
+        "ErrorOutline",
+        "MUIStepConnector",
+        "MUIStepLabel",
+        "RadioButtonUnchecked",
+        "Step",
+        "StepContent",
+        "Stepper",
+        "Typography",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/vertical-stepper/docs/vertical-stepper-page.jsx": [
+        "Button",
+        "ButtonGroup",
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/menu/menu.tsx": [
+        "ClickAwayListener",
+        "MUIPopper",
+        "MenuList",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/menu/types.ts": [
+        "",
+        "ClickAwayListenerProps",
+        "PopperPlacementType",
+        "PopperProps"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/drawer/drawer.jsx": [
+        "Box",
+        "CloseIcon",
+        "IconButton",
+        "MuiDrawer",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/tabs/tab.tsx": [
+        "Box",
+        "Theme",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/tabs/tabs.tsx": [
+        "Box",
+        "MuiTabs"
+    ],
+    "pipedream/ui/src/app/style-guide/components/navigation/tabs/tab-panel.tsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/style-guide/breadcrumbs/breadcrumbs.jsx": [
+        "",
+        "Box",
+        "Breadcrumbs as MUIBreadcrumbs",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/form/validated-number-range-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/style-guide/form/defaultable-text-field.jsx": [
+        "Clear",
+        "IconButton",
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/style-guide/form/password-field.tsx": [
+        "IconButton",
+        "InputAdornment",
+        "Visibility",
+        "VisibilityOff"
+    ],
+    "pipedream/ui/src/app/style-guide/form/form-field.jsx": [
+        "Fade",
+        "MUITooltip",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/form/checkbox.tsx": [
+        "",
+        "BoxProps",
+        "Checkbox as MUICheckbox",
+        "FormControlLabel",
+        "FormLabelProps"
+    ],
+    "pipedream/ui/src/app/style-guide/form/validated-text-field.jsx": [
+        "CancelOutlineIcon",
+        "CheckCircleOutlineIcon",
+        "ErrorOutlineIcon",
+        "Paper",
+        "Popper",
+        "TextField",
+        "green",
+        "grey"
+    ],
+    "pipedream/ui/src/app/style-guide/form/label/label-icon.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/circle-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/cluster-status-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/filter-alt-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/unmute-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/not-mitigated-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/ongoing-event-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/dashboard-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/expand-double-arrow-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/lock-open-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/finished-event-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/filter-add.tsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/dashboard-customize-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/ongoing-mitigation-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/muted-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/collapse-double-arrow-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/style-guide/icons/dimensions-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/docs/api/api-doc-page.jsx": [
+        "CheckCircleIcon",
+        "Grid",
+        "List",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "Typography",
+        "WarningIcon",
+        "green",
+        "red"
+    ],
+    "pipedream/ui/src/app/docs/api/api-doc-page-container.jsx": [
+        "Collapse",
+        "ExpandLess",
+        "ExpandMore",
+        "List",
+        "ListItem",
+        "ListItemText",
+        "ListSubheader",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/docs/api/api-doc-landing-page.jsx": [
+        "Link",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/dimensions-list-page.jsx": [
+        "InputAdornment",
+        "SearchIcon",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/dimensions/dimension-detail-page.jsx": [
+        "Checkbox",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/create-dimension/create-dimension.jsx": [
+        "Checkbox",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/locked-tag.jsx": [
+        "LockIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/position-matches-modals-shared-components.jsx": [
+        "",
+        "Box",
+        "DialogActions",
+        "DialogContent",
+        "Paper",
+        "Typography",
+        "WarningIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/delete-position-button.tsx": [
+        "DeleteIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/position-row-actions.tsx": [
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/capacity-unit-select.tsx": [
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/position-matches-normalized-cidrs-modal.tsx": [
+        "Box",
+        "Dialog"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/dimension-table-action-icons.jsx": [
+        "DeleteIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/checkbox-label.jsx": [
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/dimensions-table.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/position-match-table-action-icons.jsx": [
+        "DeleteIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/file-input.jsx": [
+        "Input",
+        "InputLabel",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/dimension-positions-table.jsx": [
+        "Switch",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/add-edit-match-modal.jsx": [
+        "Dialog",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/position-matches-overlapping-cidrs-modal.tsx": [
+        "Box",
+        "Dialog",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/bulk-editing-modal.jsx": [
+        "Dialog",
+        "DialogContent",
+        "DialogTitle",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/dimension-select.jsx": [
+        "ArrowIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/position-sidebar.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/shared/create-position.jsx": [
+        "Dialog",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/dimensions/vpn/vpn-position-table-actions.jsx": [
+        "DeleteIcon",
+        "EditIcon",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/dimensions/vpn/vpn-detail-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/vpn/vpn-position-dialog-form.jsx": [
+        "",
+        "DialogActions",
+        "DialogContent",
+        "DialogTitle",
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "MUIDialog",
+        "Paper",
+        "Radio",
+        "RadioGroup",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dimensions/ixp/ixp-interfaces-table.jsx": [
+        "DeleteIcon",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/dimensions/form-components/local-markets/edit-markets-dialog.jsx": [
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/dimensions/form-components/local-markets/local-markets-table.jsx": [
+        "DeleteIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/geoip/geoip-form.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/pops/pops-position-detail-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/pops/pops-router-table.jsx": [
+        "DeleteIcon"
+    ],
+    "pipedream/ui/src/app/components/dimensions/pops/pops-dimension-detail-sidebar.jsx": [
+        "Checkbox",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/pops/pops-dim-market-display.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/dimensions/onnet-cache/onnet-cache-positions-table.jsx": [
+        "Switch",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/dimensions/onnet-cache/onnet-cache-position-detail-form.jsx": [
+        "FormControlLabel",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/dimensions/onnet-cache/onnet-cache-detail-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dimensions/onnet-cache/create-onnet-cache-position.jsx": [
+        "Dialog"
+    ],
+    "pipedream/ui/src/app/components/dimensions/onnet-cache/create-onnet-cache-position-form.jsx": [
+        "DialogActions",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/login/login.tsx": [
+        "ClassNameMap",
+        "CssBaseline",
+        "Grid",
+        "InputLabel",
+        "Theme",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-cards-recents.jsx": [
+        "ExpandMoreIcon",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-card-actions.jsx": [
+        "IconButton",
+        "StarBorderIcon",
+        "StarIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-empty-state.jsx": [
+        "Grid",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-card-options-menu.jsx": [
+        "EditIcon",
+        "HomeIcon",
+        "HomeOutlinedIcon",
+        "IconButton",
+        "List",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "MoreVertIcon",
+        "Paper",
+        "Popover",
+        "ToggleOffIcon",
+        "ToggleOnIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-page-controls.jsx": [
+        "BackspaceIcon",
+        "IconButton",
+        "InputAdornment",
+        "InputBase",
+        "SearchIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-loading-state.jsx": [
+        "Grid",
+        "Skeleton"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-card.jsx": [
+        "Grid",
+        "HomeIcon",
+        "HomeOutlinedIcon",
+        "NotInterestedIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-constants.jsx": [
+        "grey",
+        "lightBlue",
+        "orange",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-sidebar.jsx": [
+        "AccessTimeIcon",
+        "List",
+        "NotInterestedIcon",
+        "ReportIcon",
+        "StarBorderIcon",
+        "_ListItem",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboards-list/dashboards-list-cards.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/visualizations-api/recoverable-query-error-handler.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/playground/playground.tsx": [
+        "Button"
+    ],
+    "pipedream/ui/src/app/components/cube-visualizations/cube-donut.jsx": [
+        "blue",
+        "deepPurple",
+        "pink",
+        "red",
+        "teal"
+    ],
+    "pipedream/ui/src/app/components/cube-visualizations/cube-percentage-table.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/cube-visualizations/cube-table/cube-table-head.jsx": [
+        "TableCell",
+        "TableHead",
+        "TableRow",
+        "TableSortLabel"
+    ],
+    "pipedream/ui/src/app/components/cube-visualizations/cube-table/cube-table.jsx": [
+        "Table",
+        "TableBody",
+        "TableCell",
+        "TableRow",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/cube-visualizations/cube-table/cube-grouped-table-head.jsx": [
+        "TableCell",
+        "TableHead",
+        "TableRow",
+        "TableSortLabel"
+    ],
+    "pipedream/ui/src/app/components/application-error/error-container.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/deployment-settings-page.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/side-menu.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/ui-settings.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/global-support-link.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/navbar-preview.tsx": [
+        "AssessmentIcon",
+        "DashboardIcon",
+        "Paper",
+        "PolicyIcon",
+        "SettingsApplicationsIcon",
+        "Theme",
+        "grey",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/image-section.tsx": [
+        "Grid",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/edit-image-dialog.tsx": [
+        "Box",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Paper",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/file-dropzone.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/edit-logo-section.tsx": [
+        "Box",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/logo-sizes-toggle.tsx": [
+        "Box",
+        "FormControl",
+        "FormLabel",
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/custom-announcement.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/deployment-settings/ui-settings/reset-all-to-default-button.tsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/manage-selections/manage-selections-dialog.jsx": [
+        "Box",
+        "Dialog",
+        "MuiDialogActions",
+        "MuiDialogContent"
+    ],
+    "pipedream/ui/src/app/components/form-stepper-dialog/form-stepper-dialog-styled-elements.tsx": [
+        "ErrorOutlineIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/form-stepper-dialog/form-stepper-dialog-loader.tsx": [
+        "Box",
+        "CircularProgress",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/form-stepper-dialog/form-stepper-section.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/notifications/snmp-form.jsx": [
+        "Collapse"
+    ],
+    "pipedream/ui/src/app/components/notifications/product-areas-form.tsx": [
+        "Collapse"
+    ],
+    "pipedream/ui/src/app/components/notifications/product-areas-form-container.tsx": [
+        "Accordion",
+        "AccordionDetails",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/notifications/notification-table.jsx": [
+        "DeleteIcon",
+        "DuplicateIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/notifications/method-form-container.jsx": [
+        "",
+        "Accordion",
+        "AccordionDetails",
+        "AccordionSummary",
+        "ExpandMoreIcon"
+    ],
+    "pipedream/ui/src/app/components/notifications/onboarding/admin-nav-tip.jsx": [
+        "",
+        "ClickAwayListener",
+        "DialogActions",
+        "DialogContent",
+        "Paper",
+        "Popper",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/server.jsx": [
+        "Checkbox",
+        "Collapse",
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/privacy.jsx": [
+        "Collapse"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/security-level.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/privacy-type.jsx": [
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/auth.jsx": [
+        "Collapse"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/shared.jsx": [
+        "Box",
+        "ErrorOutlineIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/remote-engine-id.jsx": [
+        "Checkbox",
+        "Collapse",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/snmp-version.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/notification-mechanism.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/notifications/form-components/auth-type.jsx": [
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/button/chip-button.jsx": [
+        "Button"
+    ],
+    "pipedream/ui/src/app/components/empty-states/empty-state-basic-with-background.tsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/geoip/geoip-form.jsx": [
+        "FormControl",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/form-title.jsx": [
+        "ErrorOutlineIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/ip-same-as-loopback.jsx": [
+        "Checkbox",
+        "FormControlLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/expandable-form-section.jsx": [
+        "",
+        "Accordion",
+        "AccordionDetails",
+        "AccordionSummary",
+        "ExpandMoreIcon"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/spm/spm-form.tsx": [
+        "Box",
+        "FormControl",
+        "FormLabel",
+        "InputAdornment",
+        "MenuItem",
+        "TextField",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/bgp/bgp-inherit-form.jsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/bgp/bgp-session-status.jsx": [
+        "Cancel",
+        "CheckCircleIcon",
+        "green",
+        "grey",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/bgp/bgp-form.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/bgp/bgp-direct-peer-form.jsx": [
+        "Checkbox",
+        "FormControl",
+        "FormControlLabel",
+        "FormGroup",
+        "FormLabel",
+        "Radio",
+        "RadioGroup",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/network-firewall/network-firewall-form.jsx": [
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/flow/flow-form.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/expandable-forms/snmp/snmp-form.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormGroup",
+        "FormLabel",
+        "MenuItem",
+        "Radio",
+        "RadioGroup",
+        "TextField",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/shared.mjs": [
+        "FormControl"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/description.jsx": [
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/router-capabilities/checkbox-has-spm.tsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/router-capabilities/checkbox-has-network-firewall.tsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/router-capabilities/checkbox-has-flow.tsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/router-capabilities/router-capabilities.tsx": [
+        "FormControl",
+        "FormGroup",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/router-capabilities/checkbox-has-bgp.tsx": [
+        "Checkbox",
+        "FormControlLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/connectors/router/sidebar/router-capabilities/checkbox-has-snmp.tsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/compound-charts/table-timegraph.jsx": [
+        "CloseIcon",
+        "DialogTitle",
+        "IconButton",
+        "Modal",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/unit-type/unit-type-picker.tsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/unit-type/unit-type-toggle.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/asn-lookup/asn-lookup.jsx": [
+        "Grid",
+        "LaunchIcon",
+        "Skeleton",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/explorer-theme.jsx": [
+        "",
+        "MuiThemeProvider",
+        "amber",
+        "blue",
+        "createTheme",
+        "green",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/explore/explore-data-display.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/explore-constants.mjs": [
+        "blue",
+        "green",
+        "orange"
+    ],
+    "pipedream/ui/src/app/components/explore/shared.jsx": [
+        "Checkbox",
+        "MUIFormControlLabel",
+        "MUIWarningIcon",
+        "red",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/display-title-select.jsx": [
+        "Select",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/dialog-theme-provider.jsx": [
+        "",
+        "MuiThemeProvider",
+        "createTheme"
+    ],
+    "pipedream/ui/src/app/components/explore/table/position-filter-button.jsx": [
+        "ClickAwayListener",
+        "IconButton",
+        "MenuItem",
+        "MenuList",
+        "Paper",
+        "Popper",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/table/remove-filter-icon.jsx": [
+        "SvgIcon",
+        "blue"
+    ],
+    "pipedream/ui/src/app/components/explore/table/filter-list.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/table/view-type-select.jsx": [
+        "MenuItem",
+        "TableChartIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/table/measure-filter-list.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/table/exploratory-table.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/table/add-filter-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/table/summary-checkbox.tsx": [
+        "Checkbox",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/onboarding/sparkles-icon.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/onboarding/legacy-menu-tip.jsx": [
+        "ClickAwayListener",
+        "MUIDialogActions",
+        "MUIDialogContent",
+        "Paper",
+        "Popper"
+    ],
+    "pipedream/ui/src/app/components/explore/onboarding/welcome-modal.jsx": [
+        "Dialog",
+        "MUIDialogActions",
+        "MUIDialogContent",
+        "MUIDialogTitle",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/event-details/subevent-detail.tsx": [
+        "Grid",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/event-details/event-details-page.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/alert-visualization.tsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/condition-dialog-actions.tsx": [
+        "DialogActions"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/condition-tabs.tsx": [
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/conditions-drop-down-menu.tsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/conditions-display.tsx": [
+        "Grid",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/condition-delete-confirmation-modal.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/forms/min-threshold-filter.tsx": [
+        "ErrorOutline",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/forms/baseline-condition-form.tsx": [
+        "blue"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/forms/baseline-period-filter.tsx": [
+        "ArrowDropDownIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/forms/reactions/notify-when-checkboxes.tsx": [
+        "FormGroup"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/conditions/forms/reactions/email-server/password-input.tsx": [
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/name-dialog/name-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/name-dialog/policy-name-description-form.tsx": [
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/policy/name-dialog/description-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/events-alerts-tabs.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/events-alert-list-page.tsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/tab-content-alerts.tsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/tab-content-events.tsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/event-status-tag.tsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/oi-table/alerts-table.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/oi-table/events-table.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/oi-table/row-actions/alerts-switch.tsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/explore/alerts/alerts-events-list/oi-table/row-actions/delete-confirmation-modal.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/error-handling/error-container.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/error-handling/cube-error-handler.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/save-query/save-query-dialog.tsx": [
+        "Dialog"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/save-query/saved-query-form.jsx": [
+        "Box",
+        "DialogActions",
+        "DialogContent",
+        "FormLabel",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/save-query/save-changes-menu.jsx": [
+        "Box",
+        "FileCopyOutlinedIcon",
+        "ListItemIcon",
+        "ListItemText",
+        "SaveOutlinedIcon",
+        "Typography",
+        "UndoOutlinedIcon",
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/save-query/save-query-button.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/queries-list-item.jsx": [
+        "Grid",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/view-queries.jsx": [
+        "Box",
+        "CloseIcon",
+        "IconButton",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/delete-query-dialog.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/queries-list.jsx": [
+        "Box",
+        "Grid",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/view-queries-search.jsx": [
+        "Grid",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/view-queries-drawer.jsx": [
+        "Drawer"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/view-queries-button.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/favorite-query.jsx": [
+        "StarBorderIcon",
+        "StarIcon",
+        "orange",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/run-query-button.jsx": [
+        "PlayArrowIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/options/delete-item.jsx": [
+        "DeleteIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/options/rename-item.jsx": [
+        "CreateIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/options/options-button.jsx": [
+        "ClickAwayListener",
+        "MoreVertIcon",
+        "Paper",
+        "Popover",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/options/duplicate-item.jsx": [
+        "FileCopyIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/options/options-menu.jsx": [
+        "MenuList",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/options/open-in-new-tab-item.jsx": [
+        "OpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/view-queries/options/options-menu-item.jsx": [
+        "ListItemIcon",
+        "MenuItem",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/legacy-queries/legacy-query-import-dialog.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/saved-queries/legacy-queries/open-in-explore-button.jsx": [
+        "AssessmentIcon",
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/data-panel.jsx": [
+        "DataIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/sidebar-panel.tsx": [
+        "",
+        "AccordionProps as MUIAccordionProps",
+        "ExpandMoreIcon",
+        "OverridableComponent",
+        "SvgIconTypeMap"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/modal-dropdown-button.jsx": [
+        "",
+        "MUIButton",
+        "MuiThemeProvider",
+        "createTheme",
+        "grey",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/sidebar.jsx": [
+        "ChevronLeft",
+        "Grid",
+        "MenuIcon",
+        "blue"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/submit-button.jsx": [
+        "Button",
+        "CircularProgress",
+        "CloseIcon",
+        "PlayArrowIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/modal-validated-text-field.jsx": [
+        "",
+        "MuiThemeProvider",
+        "createTheme",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measure-count-confirmation.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/sidebar-select.jsx": [
+        "MenuItem",
+        "Select"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/shared.jsx": [
+        "DeleteIcon",
+        "InputLabel",
+        "MUIAccordion",
+        "MUIAccordionDetails",
+        "MUIAccordionSummary",
+        "MUICheckbox",
+        "MUIFormControlLabel",
+        "MUIIconButton",
+        "MUITypography",
+        "grey",
+        "red",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/sidebar-button.jsx": [
+        "ArrowRightIcon",
+        "Button"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/modal-popper.jsx": [
+        "ClickAwayListener",
+        "MUIDialogActions",
+        "MUIDialogContent",
+        "MUIPaper",
+        "MUIPopper"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/unsaved-changes-dialog.jsx": [
+        "Box",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/control-modal.jsx": [
+        "DataIcon",
+        "Dialog",
+        "DialogContent",
+        "DialogTitle",
+        "OutlinedInput",
+        "Paper",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/tabbed-controls.jsx": [
+        "MUITab",
+        "MUITabs",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/control-modal-actions.jsx": [
+        "DialogActions"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/applys-control/top-dimensions-selector.jsx": [
+        "ArrowDropDownIcon",
+        "MUIButton",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/applys-control/apply-card.jsx": [
+        "CloseIcon",
+        "EditIcon",
+        "IconButton",
+        "blue"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/applys-control/count-dimensions-multi-selector.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/applys-control/histogram-function/histogram-dimension-select.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measures-control/capacity-checkbox.jsx": [
+        "MUIEditIcon",
+        "MUIIconButton"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measures-control/ratio-checkbox.jsx": [
+        "MUIEditIcon",
+        "MUIIconButton"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measures-control/percent-total-checkbox.jsx": [
+        "MUIEditIcon",
+        "MUIIconButton"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measures-control/capacity-form.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measures-control/measures-modal.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measures-control/capacity-auto-suggest.jsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/measures-control/measure-auto-suggest.tsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/time-panel/time-panel-radio-group.tsx": [
+        "Box",
+        "FormControlLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/time-panel/time-panel.tsx": [
+        "QueryBuilderIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/time-panel/relative-range-radio-option/relative-time-range-control.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/time-panel/relative-range-radio-option/relative-range-radio-option.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/time-panel/date-range-radio-option/date-range-radio-option.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/boundary-control/boundary-form.jsx": [
+        "IconButton",
+        "RemoveCircleIcon",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/boundary-control/boundary-modal.jsx": [
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/boundary-control/boundary-tag-menu.jsx": [
+        "CloseIcon",
+        "MenuItem",
+        "OpenInNewIcon",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/boundary-control/boundary-tags.jsx": [
+        "CloseIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/boundary-control/form-components/boundary-select.jsx": [
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/database-control/database-control.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimension-removal-confirmation.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimension-card.jsx": [
+        "CloseIcon",
+        "IconButton",
+        "MUIOpenInNewIcon",
+        "SettingsIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-control.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/filter-header-bar.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/group-filtering.jsx": [
+        "ArrowDropDownIcon",
+        "Box",
+        "Checkbox",
+        "ClickAwayListener",
+        "FormControlLabel",
+        "Paper",
+        "Popper",
+        "blue"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/modal-sidebar-rows.jsx": [
+        "DragIndicatorIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/modal-sidebar.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/footer-button.jsx": [
+        "CloseIcon",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimension-sidebar-card.jsx": [
+        "CloseIcon",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/search-input.jsx": [
+        "InputAdornment",
+        "MUICancelRoundedIcon",
+        "MUISearchIcon",
+        "TextField",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimensions-selection-list.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimensions-modal.jsx": [
+        "MUIDialogContent",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimension-group/split-selection-cell.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimension-group/dimension-attributes-popover.jsx": [
+        "IconButton",
+        "MoreVertIcon",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimension-group/dimension-menu.jsx": [
+        "AddCircleOutlineIcon",
+        "List",
+        "ListItem",
+        "ListItemText",
+        "OpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimension-group/attributes-menu.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimension-group/dimension-split-option.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/dimensions-control/dimensions-modal/dimension-group/shared.jsx": [
+        "Checkbox",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/slice-or-control/slice-card.jsx": [
+        "CloseIcon",
+        "FilterListIcon",
+        "IconButton",
+        "MUIOpenInNewIcon",
+        "SettingsIcon",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/slice-or-control/slice-dimension.jsx": [
+        "AddCircleOutlineIcon",
+        "ArrowIcon",
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/slice-or-control/slice-match.jsx": [
+        "grey",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/slice-or-control/add-slice-controls.jsx": [
+        "ClickAwayListener",
+        "MUIAddCircleOutlineIcon",
+        "MUIIconButton",
+        "MUIPopper",
+        "MenuItem",
+        "MenuList",
+        "Paper",
+        "Typography",
+        "pink",
+        "purple"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/slice-or-control/position/slice-position-select.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/query-feedback/guardrails-messaging.tsx": [
+        "List",
+        "ListItem",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/query-feedback/query-feedback-state.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/query-feedback/feedback-card.jsx": [
+        "Box",
+        "MUIDialogContent",
+        "MUIDialogTitle",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/query-feedback/feedback-popper.jsx": [
+        "IconButton",
+        "MUICloseIcon",
+        "Paper",
+        "Popper",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/query-feedback/feedback-badge.tsx": [
+        "Badge",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/query-config/query-feedback/query-feedback.jsx": [
+        "Badge",
+        "IconButton",
+        "MUISuccessIcon",
+        "green"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/settings-gear-menu-confirmation-modal.tsx": [
+        "DialogTitle",
+        "Paper",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/visualization-display.jsx": [
+        "Box",
+        "ClickAwayListener",
+        "Paper",
+        "Popper"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/use-overflow-menu-items.jsx": [
+        "SettingsIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/recoverable-visualization-error-handler.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/histogram-dialog.tsx": [
+        "Box",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/visualization-select.jsx": [
+        "BarChartIcon",
+        "MenuItem",
+        "grey",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/settings-gear-menu.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/visualization/visualization-change-dialog.jsx": [
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/header.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/header-title.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/cache-control-button.jsx": [
+        "UpdateIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/inline-header-button.jsx": [
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/header-left-section.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/menu/menu-button.jsx": [
+        "ClickAwayListener",
+        "MenuIcon",
+        "Paper",
+        "Popper"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/menu/explore-menu.jsx": [
+        "AssessmentIcon",
+        "ErrorOutlineIcon",
+        "MenuList",
+        "RefreshIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/menu/explore-menu.styles.tsx": [
+        "ListItemIcon",
+        "MenuItem",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/menu/download-page-pdf/download-page-pdf.tsx": [
+        "CircularProgress",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/share/persistent-url-menu-item.jsx": [
+        "Collapse",
+        "ExpandLess",
+        "ExpandMore",
+        "ListItemSecondaryAction",
+        "ListItemText",
+        "MenuItem",
+        "MenuList",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/share/share-button.jsx": [
+        "ClickAwayListener",
+        "Paper",
+        "Popper",
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/share/share-menu.jsx": [
+        "ListItemSecondaryAction",
+        "ListItemText",
+        "MenuItem",
+        "MenuList",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/export/download-dataset.jsx": [
+        "MenuItem",
+        "TextField",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/export/export-button.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/explore/header-bar/export/export-modal.jsx": [
+        "Dialog",
+        "MUIDialogContent",
+        "Paper",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/subscriber/cidr-range-table.jsx": [
+        "DeleteIcon",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/subscriber/aaa-ingest-card.jsx": [
+        "CardActions",
+        "ChevronRight",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/subscriber/bin-configuration.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/subscriber/subscriber-boundary-card.jsx": [
+        "CardActions",
+        "ChevronRight",
+        "Skeleton",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/subscriber/shared.jsx": [
+        "MUICard",
+        "MUICardContent",
+        "Paper",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/subscriber/cidr-range-add-input.jsx": [
+        "AddIcon"
+    ],
+    "pipedream/ui/src/app/components/subscriber/bin-configuration-modal.jsx": [
+        "Alert",
+        "Dialog",
+        "DialogContent",
+        "Grid",
+        "MUIDialogActions",
+        "MUISlider",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/subscriber/quartile-dashboard-card.jsx": [
+        "CardActions",
+        "ChevronRight",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/subscriber/download-analysis.jsx": [
+        "DownloadIcon",
+        "FolderIcon"
+    ],
+    "pipedream/ui/src/app/components/query-details/data-view-link.jsx": [
+        "MUIOpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/components/query-details/query-details.jsx": [
+        "CloseIcon",
+        "DialogTitle",
+        "IconButton",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/query-details/query-details-drawer.jsx": [
+        "Drawer"
+    ],
+    "pipedream/ui/src/app/components/support-user-toolkit/support-user-toolkit-page.jsx": [
+        "AssesmentIcon",
+        "DescriptionIcon",
+        "InputAdornment",
+        "SearchIcon",
+        "TextField",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/devices/device-property.tsx": [
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/tab-content-dms.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/devices/tab-content-routers.tsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-page-header.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/toggle-device.tsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/toggle-device-confirmation-modal.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/router-summary.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/cells/router-status-indicator.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/row-actions/delete-device-confirmation-modal.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/row-actions/menu-item-view-device-interfaces.tsx": [
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/row-actions/menu-item-delete-device.tsx": [
+        "Box",
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/row-actions/menu-item-edit-device.tsx": [
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/filter/connector-select.tsx": [
+        "ListItemText",
+        "MenuItem",
+        "MenuList",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/router-connectors/bgp-connector-accordion/bgp-connector-accordion.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/router-connectors/common-connector-accordion/common-connector-accordion.tsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/router-connectors/common-connector-accordion/common-connector-accordion-details.tsx": [
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-table/router-connectors/common-connector-accordion/common-connector-accordion-header.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-overview/devices-overview.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-overview/flow-record-chart/controls/visualization-settings-menu.tsx": [
+        "Box",
+        "DialogActions",
+        "DialogContent",
+        "Popper",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-overview/flow-record-chart/controls/visualization-settings-button.tsx": [
+        "Tune"
+    ],
+    "pipedream/ui/src/app/components/devices/devices-overview/flow-record-chart/controls/visualization-settings-menu-form.tsx": [
+        "",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup",
+        "Theme",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/health/status-indicator-legend.tsx": [
+        "Box",
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/devices/health/device-health-types.ts": [
+        "TooltipProps"
+    ],
+    "pipedream/ui/src/app/components/devices/health/status-indicator.tsx": [
+        "ArrowDownwardIcon",
+        "ArrowUpwardIcon",
+        "CSSProperties",
+        "CachedIcon"
+    ],
+    "pipedream/ui/src/app/components/match-config/match-action-icons.jsx": [
+        "DeleteIcon",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "EditIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/match-config/match-form-dialog.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/reports/report-utils.jsx": [
+        "green",
+        "red",
+        "yellow"
+    ],
+    "pipedream/ui/src/app/components/reports/display-title.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/reports/cdn-optimization-summary/cdn-optimization-total-gauges.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/reports/cdn-optimization-summary/cdn-optimization-toggle-gauges.jsx": [
+        "Grid",
+        "ToggleButton",
+        "ToggleButtonGroup",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/reports/cdn-optimization-summary/cdn-optimization-summary-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/reports/cdn-optimization-details/cdn-optimization-details-page.jsx": [
+        "Box",
+        "Grid",
+        "ToggleButton",
+        "ToggleButtonGroup",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/save-actions/save-actions.tsx": [
+        "Box",
+        "Button"
+    ],
+    "pipedream/ui/src/app/components/organizations/organization-permissions-wrapper.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/organizations/organization-edit-form.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/organizations/organization-edit-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/organizations/add-organization-modal.tsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/organizations/organizations.jsx": [
+        "Box",
+        "Create",
+        "Delete",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/organizations/organization-editor.tsx": [
+        "Box",
+        "Grid",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/components/organizations/portal-config/protected-objects-button.jsx": [
+        "ArrowRightIcon",
+        "Button",
+        "CircularProgress"
+    ],
+    "pipedream/ui/src/app/components/organizations/portal-config/defender-mssp-portal-config.jsx": [
+        "",
+        "Box",
+        "Checkbox",
+        "ErrorOutlineIcon",
+        "FormControlLabel",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/organizations/portal-config/policy-row.tsx": [
+        "Box",
+        "DeleteIcon",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/organizations/portal-config/policy-select.tsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/organizations/portal-config/protected-objects-modal/protected-objects-modal.jsx": [
+        "",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "DialogTitle",
+        "ListSubheader",
+        "MuiThemeProvider",
+        "Paper",
+        "PolicyIcon",
+        "Typography",
+        "blue",
+        "createTheme",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/table-stop-mitigation-button.jsx": [
+        "CircularProgress",
+        "StopIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/ace-capable-indicator.tsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/cell-link.tsx": [
+        "grey",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/warning-icon-tooltip.jsx": [
+        "ErrorOutline",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/explorer-button.jsx": [
+        "Policy"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/section-header.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/forms/communities-input.jsx": [
+        "AddCircleOutline",
+        "FormLabel",
+        "IconButton",
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/forms/redirect-vrf-route-target-input.jsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/lookup-ip/port-chip.jsx": [
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/lookup-ip/lookup-ip-dialog.jsx": [
+        "Box",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Grid",
+        "Pagination",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/lookup-ip/lookup-ip.jsx": [
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/form-components/auto-compaction-checkbox.jsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/message-log/message-log.jsx": [
+        "",
+        "Accordion",
+        "AccordionDetails",
+        "AccordionSummary",
+        "AccountCircle",
+        "ArrowUpwardIcon",
+        "Box",
+        "Error",
+        "ExpandMoreIcon",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/shared/message-log/filter-toolbar.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/defender-mitigation-page.jsx": [
+        "Box",
+        "Grid",
+        "VerticalSplit as VerticalSplitIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/defender-mitigation-page/options-menu.tsx": [
+        "VerifiedUserOutlined as FinishIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/defender-mitigation-page/mitigation-details-list.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/defender-mitigation-page/styled.tsx": [
+        "Grid",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/defender-mitigation-page/mitigation-status-icon.tsx": [
+        "",
+        "PauseCircleOutline as PauseIcon",
+        "VerifiedUserOutlined as FinishIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/shared/constants.mjs": [
+        "red"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/shared/source-icons.jsx": [
+        "AccountCircleIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/shared/filter-entries-tooltip.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/shared/mitigation-filter-details/filter-details-modal.jsx": [
+        "Dialog",
+        "DialogContent",
+        "Slide",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/shared/mitigation-filter-details/filter-details-control.jsx": [
+        "TableChartOutlined"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/mitigation-traffic/mitigation-traffic-options.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/mitigation-traffic/mitigation-traffic-summary-table.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/network-edge-filters.jsx": [
+        "Grid",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/match-label.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/match-criteria-attribute.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/network-edge-filters-title.jsx": [
+        "SubdirectoryArrowLeftIcon",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/overflow-menu.jsx": [
+        "Box",
+        "ChartIcon",
+        "DownloadIcon",
+        "List",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "MoreIcon",
+        "Popover",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/cidr-details-button.jsx": [
+        "Box",
+        "Link"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/network-filter-icons.jsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/filter-table-row-formatter.jsx": [
+        "Box",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/filter-table.jsx": [
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/character-separated-list.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/status.jsx": [
+        "Autorenew",
+        "CheckCircleIcon",
+        "ErrorIcon",
+        "Grid",
+        "RemoveCircle",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/match-criteria.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/match-criteria-popup.tsx": [
+        "FileCopy as CopyIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/header-filtering/column-header-filter-icon.jsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/header-filtering/simple-filter-menu.jsx": [
+        "Box",
+        "ClickAwayListener",
+        "List",
+        "Popover",
+        "makeStyles",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/network-firewall/filter-tables/header-filtering/list-of-filter-options.jsx": [
+        "Box",
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/shared/row-icons.jsx": [
+        "DeleteIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/diversion-connectors/diversion-connectors-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/diversion-connectors/diversion-connectors-table.jsx": [
+        "Add",
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/diversion-connectors/diversion-connectors-table-helpers.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/diversion-connectors/form/diversion-connectors-form.jsx": [
+        "DialogActions",
+        "DialogContent",
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/diversion-connectors/form/toggled-password-field.jsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/diversion-connectors/form/test-result.jsx": [
+        "CheckCircleOutlineIcon",
+        "ErrorIcon",
+        "Grid",
+        "Typography",
+        "green",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/a10-radware/a10-radware-table.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/a10-radware/add-device-button.jsx": [
+        "Add"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/a10-radware/device-form/device-form.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation/diversion/a10-radware/device-form/device-form-modal.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/mitigation-resources-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/shared/details-drawer-opener-button.jsx": [
+        "ArrowForwardIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/shared/constants.mjs": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/shared/status-icon.jsx": [
+        "CheckCircleIcon",
+        "ErrorIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/shared/device-status.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/shared/mitigation-status.jsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/network-firewall/details/mitigation-status-details-drawer.jsx": [
+        "Drawer",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-resources/network-firewall/details/device-status-details-drawer.jsx": [
+        "Drawer",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/countermeasure-options/dialog.tsx": [
+        "DialogActions",
+        "DialogContent",
+        "MuiDialog",
+        "MuiDialogTitle",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/countermeasure-options/limits/limit-fields.tsx": [
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/countermeasure-options/allow-block-lists/dialog.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/countermeasure-options/expression-match-table/table.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/description-lists/description-list.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/description-lists/description-lists.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/description-lists/description/term.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/description-lists/description/description-value.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-formatters/mitigation-type-cell.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-formatters/mitigation-utility-link.jsx": [
+        "MUIOpenInNewIcon",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigations-list/mitigation-list-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigations-list/mitigation-table.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigations-list/mitigation-actions-cell.jsx": [
+        "VisibilityIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigations-list/mitigation-list-sidebar.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigations-list/filters/status-filter.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigations-list/filters/type-filter.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigations-list/filters/has-related-event-filter.jsx": [
+        "FormControl",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/shared/mitigation-form-section.jsx": [
+        "Box",
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/shared/simple-mitigation-table.jsx": [
+        "DeleteOutline",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/shared/mitigation-form.jsx": [
+        "Dialog",
+        "Slide"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/shared/styled-elements.jsx": [
+        "Box",
+        "ErrorOutlineIcon",
+        "FormLabel",
+        "IconButton",
+        "Typography",
+        "WarningIcon",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/shared/mitigation-form-actions.jsx": [
+        "Paper",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/cidrs-to-protect-table.jsx": [
+        "DeleteOutline",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/protect-utils.tsx": [
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/use-host-prefixes.jsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/cidrs-type.jsx": [
+        "MenuItem",
+        "TextField",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/use-less-specific-prefixes.jsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/paired-cidrs-inputs.tsx": [
+        "AddCircleOutline",
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/add-protected-object-cidrs-button.tsx": [
+        "ArrowForward",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/protect/single-cidr-input.tsx": [
+        "AddCircleOutline",
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/announcement-settings/bgp-next-hop-input.jsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/announcement-settings/well-known-communities.jsx": [
+        "Box",
+        "Checkbox",
+        "FormControlLabel",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/announcement-settings/upstream-or-cloud.jsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/offramp-settings/offramp-sessions-and-groups.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/dms-mitigation-target/dms-mitigation-target.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/allow-block-lists/cidr-list-input-display.jsx": [
+        "AddCircleOutline",
+        "IconButton",
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/filter-rules/tcp-flags.jsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/filter-rules/action-type-select.jsx": [
+        "MenuItem",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/filter-rules/action-type-rate-limit-select.jsx": [
+        "MenuItem",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/countermeasures/title-section.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/countermeasures/countermeasures-list-item.tsx": [
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/mitigation-target/target-select.jsx": [
+        "CircularProgress",
+        "MenuItem",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/mitigation-target/shared-display-title.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/mitigation-target/shared-display-list-view.jsx": [
+        "Box",
+        "ListItem as MUIListItem",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/mitigation-target/shared-display.jsx": [
+        "AddIcon",
+        "DeleteOutline",
+        "IconButton",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/mitigation-target/mitigation-system-select.jsx": [
+        "MenuItem",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-templates/form-sections/mitigation-target/arbor-mitigation-template-select.jsx": [
+        "MenuItem",
+        "ValidatedTextField"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/mitigation-all-details-content.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/mitigation-details-drawer.tsx": [
+        "DialogContent",
+        "DialogContentText"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/inline-edit-fields/edit-button.tsx": [
+        "EditIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/inline-edit-fields/read-mode.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/inline-edit-fields/cidrs/edit-mode.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/filter-rules/filter-rules.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/filter-rules/read-mode-table-row-content.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/countermeasures/mitigation-countermeasures.tsx": [
+        "Box",
+        "ErrorIcon",
+        "Paper",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/countermeasures/acl-filter-info.tsx": [
+        "Autorenew",
+        "CheckCircleIcon",
+        "ErrorIcon",
+        "green",
+        "grey",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/defender/mitigations/mitigation-details/countermeasures/table/cells/filter-entries.tsx": [
+        "Autorenew",
+        "ButtonProps",
+        "ErrorIcon",
+        "Theme",
+        "WithStylesOptions",
+        "makeStyles",
+        "red",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/positions-select-drawer.jsx": [
+        "Drawer",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/add-policy-modal.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-sidebar.jsx": [
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-table.jsx": [
+        "DeleteIcon",
+        "EditIcon",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/ddos-control.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-thresholds/policy-threshold-summary.tsx": [
+        "FlashOn",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-thresholds/policy-threshold-reaction-summary.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-thresholds/policy-threshold-actions.jsx": [
+        "DeleteIcon",
+        "EditIcon",
+        "IconButton",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-thresholds/policy-threshold-expand-button.jsx": [
+        "IconButton",
+        "KeyboardArrowDownIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-thresholds/policy-threshold-list.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-thresholds/policy-threshold-list-item.jsx": [
+        "ErrorOutlineIcon",
+        "MuiCollapse",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/policy-thresholds/policy-thresholds.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/row-icons.jsx": [
+        "DeleteIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-bgp-flowspec-table.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-dropdown-menu.jsx": [
+        "Add"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-dms-table.jsx": [
+        "Add",
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-table.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-network-edge-table.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-third-party-table.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/device-groups-form.jsx": [
+        "Dialog",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/device-groups-form-actions.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/group-settings.jsx": [
+        "Box",
+        "Grid",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/section-heading.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/device-groups-description-input.jsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/device-groups-name-input.jsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/device-groups-transfer-list.jsx": [
+        "Box",
+        "FormLabel",
+        "ListSubheader"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/dms-offramp/default-offramp-settings-content.jsx": [
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/dms-offramp/default-offramp-drop-down.jsx": [
+        "Box",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/dms-offramp/default-offramp-settings.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/device-groups/device-groups-modal/form-settings/dms-offramp/fields/loopback-ip-input.jsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/form-components/dimension-and-positions.jsx": [
+        "Paper",
+        "Typography",
+        "grey",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/form-components/rulesets.jsx": [
+        "ArrowIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/form-components/spm.jsx": [
+        "Box",
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/timechart/policy-timechart.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/shared/form-items/threshold-selection.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/ratio-rulesets/ratio-rulesets-modal.jsx": [
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/ratio-rulesets/ratio-rulesets-display.jsx": [
+        "DeleteIcon",
+        "EditIcon",
+        "EyeIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/ratio-rulesets/ratio-rulesets-form.jsx": [
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/ratio-rulesets/form-items/minimum-flow-threshold.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/rules/rule-modal.jsx": [
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/rules/rule-form.jsx": [
+        "Box",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/rules/rules-display.jsx": [
+        "DeleteIcon",
+        "DuplicateIcon",
+        "EditIcon",
+        "EyeIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/rules/form-items/cloud-genome-allowlist-checkbox.jsx": [
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/rules/form-items/tcp_flags.jsx": [
+        "Checkbox",
+        "FormControl",
+        "FormControlLabel",
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/rules/form-items/port.jsx": [
+        "MenuItem",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/threshold-rulesets/threshold-rulesets-display.jsx": [
+        "DeleteIcon",
+        "EditIcon",
+        "EyeIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/manual-ddos-classification/threshold-rulesets/threshold-ruleset-form.jsx": [
+        "Checkbox",
+        "DialogActions",
+        "DialogContent",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/threshold-reaction-builder-shared.jsx": [
+        "Typography",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/threshold-reaction-builder-item.jsx": [
+        "",
+        "Accordion",
+        "AccordionDetails",
+        "AccordionSummary",
+        "Collapse",
+        "DeleteIcon",
+        "IconButton",
+        "KeyboardArrowDownIcon",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/threshold-reaction-builder-modal.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "DialogTitle",
+        "Fade"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/forms/threshold-reaction-builder-reaction-type-picker.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/forms/threshold-reaction-builder-threshold.jsx": [
+        "Checkbox",
+        "ErrorOutlineIcon",
+        "FlashOnIcon",
+        "FormControlLabel",
+        "FormHelperText",
+        "MenuItem",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/forms/threshold-reaction-form-notification.jsx": [
+        "Dialog",
+        "EmailIcon",
+        "Slide"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/forms/threshold-reaction-form-auto-mitigation.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/forms/threshold-reaction-form-list-item.jsx": [
+        "ListItem",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/threshold-reaction-builder/forms/threshold-reaction-form-new-reaction.jsx": [
+        "ArrowIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/validated-simple-menu.jsx": [
+        "ArrowDropDownIcon",
+        "InputAdornment",
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/mitigation-template-list-page.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/template-actions-menu.tsx": [
+        "ClickAwayListener",
+        "DeleteIcon",
+        "EditIcon",
+        "ListItemIcon",
+        "LockOpenIcon",
+        "MenuItem",
+        "MenuList",
+        "MoreVertIcon",
+        "Paper",
+        "Popper",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/mssp-access/mssp-organizations-table.tsx": [
+        "Box",
+        "OpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/mssp-access/mssp-access-form.tsx": [
+        "Box",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/mssp-access/all-organizations-toggle.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/mssp-access/empty-state.tsx": [
+        "Typography",
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/mssp-access/form-actions.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/mssp-access/selected-count.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/configuration/mitigation-templates/form-components/auto-mitigation-description.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/events-summary/page.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/events-summary/cards/protected-object-card.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/events-summary/cards/table-card.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/events-summary/cards/building-blocks/pie-chart.tsx": [
+        "Box",
+        "blue",
+        "deepPurple",
+        "pink",
+        "red",
+        "teal"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/gray-bg-toggle.jsx": [
+        "ToggleButton",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/console-cube-visualization.jsx": [
+        "blue",
+        "deepPurple",
+        "pink",
+        "red",
+        "teal"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/query-type-visualization-display.jsx": [
+        "BarChartIcon",
+        "DonutIcon",
+        "ToggleButton",
+        "ToggleButtonGroup",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/select-charts-control.jsx": [
+        "ArrowDropDown",
+        "Checkbox",
+        "List",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "Popover",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/charts-container.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/traffic-type-toggle.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/query-types.jsx": [
+        "DonutLarge",
+        "ShowChart"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/distribution-chart.jsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/chart-placeholder.jsx": [
+        "Button"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/query-type-control.jsx": [
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/direction-type-control.jsx": [
+        "Box",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/event-status-cell-styled.tsx": [
+        "Grid",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/event-status-cell.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/use-events-table-headers.tsx": [
+        "Box",
+        "Tooltip"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/helpers.mjs": [
+        "createTheme",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/mitigations-cell/status-icon.tsx": [
+        "Box",
+        "VerifiedUserOutlinedIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/mitigations-cell/status-icon.spec.jsx": [
+        "red"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/mitigations-cell/mitigation-details.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/events-filter/filter-prefix.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/events-filter/events-filter.tsx": [
+        "Box",
+        "ClickAwayListener",
+        "Paper",
+        "Popper",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/events-filter/filter-type.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/events-filter/footer-actions.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/events-table/events-filter/tooltip-description.tsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/event-status/event-status.tsx": [
+        "SvgIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/segmented-counter/counts-container.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/shared/segmented-counter/count-item.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-objects-list/protected-objects-list-page.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-objects-list/list-table/list-table-helpers.jsx": [
+        "Box",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-objects-list/list-table/list-table-cells/matches-cell.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-objects-list/list-table/list-table-cells/name-cell/name-cell.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/protected-object-console-page.jsx": [
+        "Box",
+        "Grid",
+        "VerticalSplit as VerticalSplitIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/page-controls/constants.ts": [
+        "",
+        "PlayArrow as PlayArrowIcon",
+        "Stop as StopIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/page-controls/event-control-button.jsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/errors/inline-error-indicator.jsx": [
+        "ErrorOutline"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/all-details/all-details.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/all-details/sections/matches-details.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/all-details/sections/policy-details.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/all-details/sections/threshold-details.tsx": [
+        "Grid",
+        "TablePagination",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/ddos/ddos-content.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/ddos/good-bad-traffic-graph/ddos-good-bad-traffic-chart.jsx": [
+        "Box",
+        "StopTwoTone",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/ddos/events-table/events-table.jsx": [
+        "Box",
+        "MuiThemeProvider"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/analytics/controls.jsx": [
+        "Grid",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/protected-object-console/analytics/analytics-tab.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/events-summary/events-summary-console-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/events-summary/events-table/events-table.jsx": [
+        "Box",
+        "MuiThemeProvider"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/events-summary/ddos-traffic/ddos-traffic-line-chart.jsx": [
+        "Box",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-console-page.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-console-tabs.jsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-details/event-console-details.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-details/event-traffic/event-traffic-timechart.jsx": [
+        "Box",
+        "StopTwoTone"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-details/event-traffic/event-traffic-display.jsx": [
+        "Box",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-details/event-traffic/series-labels.jsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-details/event-overview/event-overview.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-details/event-mitigation-list/mitigation-actions.jsx": [
+        "MoreVertIcon"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-details/event-mitigation-list/mitigation-list-card.jsx": [
+        "",
+        "Accordion",
+        "AccordionDetails",
+        "AccordionSummary",
+        "Box",
+        "ExpandMoreIcon",
+        "Grid",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-characteristics/controls.jsx": [
+        "Grid",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-characteristics/event-characteristics-tab.jsx": [
+        "Box",
+        "Grid",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-timeline/filter-menu.jsx": [
+        "FormControlLabel",
+        "Popover",
+        "Radio"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-timeline/event-timeline-table.jsx": [
+        "Box",
+        "ErrorOutline",
+        "FilterList",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/defender/consoles/event/event-timeline/genome-tag-cell.jsx": [
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/secondary-nav/secondary-nav-item.jsx": [
+        "Divider"
+    ],
+    "pipedream/ui/src/app/components/tabular-list-field/tabular-list-field.jsx": [
+        "AddIcon",
+        "DeleteOutline",
+        "IconButton",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/tabular-list-field/configure-new.tsx": [
+        "OpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/components/tabular-list-field/tabular-list-condensed.jsx": [
+        "Box",
+        "ListItem as MUIListItem",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/tabular-list-field/display-title.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/tabular-list-field/tabular-list-display.jsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/tabular-list-field/shared.jsx": [
+        "DialogActions",
+        "IconButton",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/tabular-list-field/select-dialog.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/display/loading-spinner.jsx": [
+        "CircularProgress"
+    ],
+    "pipedream/ui/src/app/components/display/overflow-menu.jsx": [
+        "IconButton",
+        "List",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "MoreVertIcon",
+        "Popover",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/display/display.jsx": [
+        "BarChartIcon",
+        "DownloadIcon",
+        "SearchIcon"
+    ],
+    "pipedream/ui/src/app/components/display/settings-menu.jsx": [
+        "ClickAwayListener",
+        "IconButton",
+        "Paper",
+        "Popper",
+        "SettingsIcon"
+    ],
+    "pipedream/ui/src/app/components/display/display-utils.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/display/viz-content.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/display/filters/filter-row.jsx": [
+        "ArrowDropDownIcon",
+        "Button"
+    ],
+    "pipedream/ui/src/app/components/display/filters/columns-filter.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/display/filters/dimensions-filter.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/display/filters/time-range-filter.jsx": [
+        "Box",
+        "CheckIcon",
+        "ClickAwayListener",
+        "List",
+        "ListItem",
+        "MUIDialogActions",
+        "Paper",
+        "Popper",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/display/filters/enabled-filter.jsx": [
+        "FormControlLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/display/filters/measures-filter.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "ListSubheader",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/display/filters/toggle-dimensions-filter.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/display/filters/toggle-measures-filter.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/display/filters/time-over-time-toggle-filter.jsx": [
+        "FormControl",
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/display/filters/search-filter.jsx": [
+        "FormControl",
+        "InputAdornment",
+        "Search",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/display/filters/show-unmatched-filter.jsx": [
+        "Checkbox",
+        "FormControl",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/dashboard/control.jsx": [
+        "",
+        "AccessTimeIcon",
+        "Accordion",
+        "AccordionDetails",
+        "AccordionSummary",
+        "ErrorIcon",
+        "ExpandMoreIcon",
+        "FilterListIcon",
+        "_Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboard/drill-menu.jsx": [
+        "ListItemText",
+        "ListSubheader",
+        "Menu",
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/dashboard/content.jsx": [
+        "Box",
+        "Grid",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboard/sidebar.jsx": [
+        "ChevronLeft",
+        "MenuIcon",
+        "PlayArrowIcon",
+        "blue",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboard/dashboard-display.jsx": [
+        "OpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboard/dashboard-sub-header.jsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dashboard/more-menu.jsx": [
+        "DownloadIcon",
+        "EditIcon",
+        "HomeIcon",
+        "HomeOutlinedIcon",
+        "List",
+        "ListItem",
+        "MenuIcon",
+        "Paper",
+        "Popover",
+        "ToggleOffIcon",
+        "ToggleOnIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboard/dashboard-sidebar-theme.jsx": [
+        "",
+        "Button",
+        "MuiThemeProvider",
+        "blue",
+        "createTheme",
+        "green",
+        "red",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboard/experimental-label.jsx": [
+        "amber"
+    ],
+    "pipedream/ui/src/app/components/dashboard/dashboard-section.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dashboard/visualizations/dashboard-region-map-table.jsx": [
+        "WarningIcon",
+        "orange"
+    ],
+    "pipedream/ui/src/app/components/dashboard/visualizations/dashboard-region-map.jsx": [
+        "Breadcrumbs",
+        "ToggleButton",
+        "ToggleButtonGroup",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/dashboard/controls/dimension-select-control.jsx": [
+        "MenuItem",
+        "TextField",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboard/controls/time-range-control.jsx": [
+        "InputLabel",
+        "MenuItem",
+        "TextField",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboard/controls/query-group-control.jsx": [
+        "ToggleButton",
+        "ToggleButtonGroup"
+    ],
+    "pipedream/ui/src/app/components/dashboard/controls/dimensions-control.jsx": [
+        "Checkbox",
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dashboard/controls/slice-control.jsx": [
+        "ArrowDropDownIcon",
+        "ArrowForward",
+        "Checkbox",
+        "ClearIcon",
+        "FormControlLabel",
+        "InputLabel",
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Popover",
+        "TextField",
+        "red",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/typography/delta.jsx": [
+        "TrendingDown",
+        "TrendingFlat",
+        "TrendingUp",
+        "green",
+        "grey",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/deployment-setup/deployment-tags-list.jsx": [
+        "",
+        "Accordion",
+        "AccordionDetails",
+        "AccordionSummary",
+        "ExpandMoreIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/deployment-setup/deployment-setup-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/position-select/position-select.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/query-status/query-status-page.jsx": [
+        "Link",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/interfaces/table-display/filter-controls/interfaces-filter.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/interfaces/table-display/filter-controls/filter-button-control.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/interfaces/table-display/filter-controls/gbps-filter.tsx": [
+        "InputAdornment"
+    ],
+    "pipedream/ui/src/app/components/interfaces/table-display/more-actions/show-hide-columns.tsx": [
+        "",
+        "ListItemText",
+        "MenuItem",
+        "MenuList",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/gdta/gdta-page.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/gdta/gdta-info.tsx": [
+        "AccountCircleIcon",
+        "Box",
+        "DescriptionOutlined",
+        "Grid",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/gdta/gdta-agreement/gdta-enroll-modal.tsx": [
+        "",
+        "Alert",
+        "Checkbox",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Fade",
+        "FormControlLabel",
+        "FormGroup",
+        "Grid",
+        "grey",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/gdta/gdta-agreement/form-fields.tsx": [
+        "FormLabel",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/gdta/gdta-agreement/versions/v1/eula-agreement.tsx": [
+        "Link",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/gdta/onboarding/gdta-onboarding-modal.jsx": [
+        "",
+        "Box",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/table-filter/table-filter.jsx": [
+        "AddCircleIcon",
+        "Chip"
+    ],
+    "pipedream/ui/src/app/components/table-filter/filter-creator-popover.jsx": [
+        "Button",
+        "MenuItem",
+        "TextField",
+        "_Popover"
+    ],
+    "pipedream/ui/src/app/components/config-rules/summary-card.jsx": [
+        "Card",
+        "CardActions",
+        "CardContent",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/config-rules/config-rules-table.jsx": [
+        "DeleteIcon",
+        "EditIcon",
+        "List",
+        "ListItem",
+        "ListItemText",
+        "MoreVertIcon",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/config-rules/rule-popover.jsx": [
+        "OpenInNewIcon",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/config-rules/config-rule-form.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/config-rules/execution-button.jsx": [
+        "LaunchIcon"
+    ],
+    "pipedream/ui/src/app/components/config-rules/order-widget.jsx": [
+        "ArrowDropDownIcon",
+        "ArrowDropUpIcon",
+        "TextField",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/config-rules/conflict-popover.jsx": [
+        "OpenInNewIcon",
+        "Popover",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/config-rules/config-rules-list-page.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/config-rules/config-rules-edit-page.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/config-rules/interface-summary.jsx": [
+        "ChevronRight",
+        "Grid",
+        "LaunchIcon"
+    ],
+    "pipedream/ui/src/app/components/config-rules/interface-inspection/form-components/interface-classification-field.jsx": [
+        "FormControlLabel",
+        "Radio"
+    ],
+    "pipedream/ui/src/app/components/config-rules/rule-preview/rule-preview-search.jsx": [
+        "CircularProgress",
+        "InputAdornment",
+        "Search",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/config-rules/rule-preview/rule-preview.jsx": [
+        "Badge"
+    ],
+    "pipedream/ui/src/app/components/config-rules/form-components/simple-boundary.jsx": [
+        "ArrowDropDownIcon",
+        "InputAdornment",
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/config-rules/form-components/description.jsx": [
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/config-rules/form-components/peer.jsx": [
+        "ArrowDropDownIcon",
+        "FormControlLabel",
+        "FormHelperText",
+        "InputAdornment",
+        "MenuItem",
+        "Radio"
+    ],
+    "pipedream/ui/src/app/components/about/about.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/section-editor.jsx": [
+        "AddCircleIcon",
+        "MenuItem",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/permissions-selector.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/labels-selector.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/query-editor.jsx": [
+        "DeleteIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/control-editor.jsx": [
+        "AddCircleIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/editor-sidebar.jsx": [
+        "AddCircleIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/editor-topbar.jsx": [
+        "DeleteIcon",
+        "DuplicateIcon",
+        "ExportIcon",
+        "ImportIcon",
+        "Input",
+        "List",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "MoreIcon",
+        "OpenIcon",
+        "Popover",
+        "SaveIcon",
+        "WarningIcon"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/visible-toggle.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dashboard-editor/schema-error-list.jsx": [
+        "Card",
+        "ListItem",
+        "ListItemIcon",
+        "ListItemText",
+        "WarningIcon"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/incident-details/incident-enabled-network-filters-table.jsx": [
+        "Table",
+        "TableBody",
+        "TableCell",
+        "TableHead",
+        "TableRow"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/empty-state.jsx": [
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/list-view-card.jsx": [
+        "DeleteIcon",
+        "DnsIcon",
+        "EditIcon",
+        "ExpandLessIcon",
+        "ExpandMoreIcon",
+        "IconButton",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/save-dialog.jsx": [
+        "DialogActions",
+        "DialogContent",
+        "MUIDialog",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/router-config-modal.tsx": [
+        "Box",
+        "Drawer",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/page-header.jsx": [
+        "Box",
+        "EditIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/save-popper.jsx": [
+        "ClickAwayListener",
+        "DialogActions",
+        "DialogContent",
+        "DialogTitle",
+        "Paper",
+        "Popper",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared.jsx": [
+        "Box",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/firewall-set-view.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/flowspec/flowspec-detail.jsx": [
+        "Box",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/flowspec/flowspec-devices.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/flowspec/flowspec-feature-set-form.jsx": [
+        "AddIcon",
+        "Box",
+        "Checkbox",
+        "FormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/flowspec/flowspec-router-modal.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared/feature-tag.jsx": [
+        "blue",
+        "green",
+        "orange",
+        "purple",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared/router-feature-form.jsx": [
+        "SwapVertIcon"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared/router-modal.jsx": [
+        "Box",
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Slide"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared/router-parent-form.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared/fp3-switch.tsx": [
+        "Box",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared/feature-switch.jsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/shared/router-empty-state.jsx": [
+        "AddIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/juniper-netconf/juniper-devices.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/juniper-netconf/juniper-detail.jsx": [
+        "Box",
+        "DeleteIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/nokia-netconf/nokia-devices.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/view/nokia-netconf/nokia-detail.jsx": [
+        "Box",
+        "DeleteIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/network-firewall/firewall-sets/list-view/add-firewall-action.jsx": [
+        "Add"
+    ],
+    "pipedream/ui/src/app/components/users/user-editor-permissions.jsx": [
+        "Box",
+        "ListSubheader"
+    ],
+    "pipedream/ui/src/app/components/users/users-list.jsx": [
+        "Box",
+        "Create",
+        "Delete",
+        "IconButton",
+        "Visibility"
+    ],
+    "pipedream/ui/src/app/components/users/add-new-user-modal.jsx": [
+        "Box",
+        "Dialog",
+        "DialogActions",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/users/api-key-editor.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "LinearProgress",
+        "TextField",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/users/user-editor-details.jsx": [
+        "Box",
+        "Grid",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/users/add-existing-user-modal.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "FormControl",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/users/user-editor.jsx": [
+        "Box",
+        "Paper",
+        "VisibilityIcon"
+    ],
+    "pipedream/ui/src/app/components/users/user-api-keys.jsx": [
+        "Box",
+        "DeleteIcon",
+        "EditIcon",
+        "IconButton",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/users/user-page.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/health-summary/grid-item.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/health-summary/health-summary.jsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/health-summary/percent-operational/percent-operational-bar.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/health-summary/shared/link-styles.mjs": [
+        "OpenInNewIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/health-summary/shared/status.jsx": [
+        "Box",
+        "CheckCircleOutline",
+        "ErrorOutline"
+    ],
+    "pipedream/ui/src/app/components/health-summary/menu-items/base-menu-item.jsx": [
+        "Box",
+        "MuiMenuItem",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/health-summary/health-status-message/health-status-message.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/health-summary/devices/device.jsx": [
+        "Box",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/health-summary/devices/devices.jsx": [
+        "Box",
+        "DoneIcon",
+        "InputAdornment",
+        "Pagination",
+        "SearchIcon",
+        "SortIcon",
+        "TextField",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/health-summary/devices/device-details.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/health-summary/devices/topic-devices-header.jsx": [
+        "Box",
+        "CloseIcon",
+        "IconButton",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/health-summary/devices/device-meters.tsx": [
+        "Box",
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/health-summary/devices/menu-item-configure.jsx": [
+        "OpenInNewIcon"
+    ],
+    "pipedream/ui/src/app/components/health-summary/muted-devices-chip/muted-devices-chip.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/health-summary/topics/topics.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/health-summary/topics/topic-card/topic-chips.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/health-summary/topics/topic-card/topic-card-loading.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/health-summary/topics/topic-card/topic-card-empty-state.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/health-summary/topics/topic-card/topic-operational-status-bar.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/health-summary/topics/topic-card/topic-card.jsx": [
+        "Box",
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/health-summary/enabled-status-reporting-chip/enabled-status-reporting-chip.jsx": [
+        "BuildOutlined"
+    ],
+    "pipedream/ui/src/app/components/health-summary/products/product-card/product-card-error.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/health-summary/products/product-card/link-action.jsx": [
+        "ArrowForward"
+    ],
+    "pipedream/ui/src/app/components/health-summary/products/product-card/product-card-loading.jsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/health-summary/products/product-card/product-card.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/health-summary/status-list/status-list.jsx": [
+        "CheckCircleOutline",
+        "ErrorOutline"
+    ],
+    "pipedream/ui/src/app/components/health-summary/open-menu-action/open-menu-action.jsx": [
+        "MoreVert"
+    ],
+    "pipedream/ui/src/app/components/health-summary/impacted-chip/impacted-chip.jsx": [
+        "ErrorOutline"
+    ],
+    "pipedream/ui/src/app/components/boundary-config/boundary-table.jsx": [
+        "DeleteIcon",
+        "EditIcon"
+    ],
+    "pipedream/ui/src/app/components/boundary-config/add-button.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "Popover"
+    ],
+    "pipedream/ui/src/app/components/boundary-config/boundary-config-page.jsx": [
+        "Switch",
+        "WarningIcon"
+    ],
+    "pipedream/ui/src/app/components/boundary-config/boundary-dialog.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "DialogTitle",
+        "InputAdornment",
+        "Popover",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/ui-settings-theme-provider.jsx": [
+        "",
+        "MuiThemeProvider",
+        "amber",
+        "createTheme"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/card-link.jsx": [
+        "Button",
+        "MUIArrowForward",
+        "Typography",
+        "blue",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/ui-settings-page.jsx": [
+        "EqualizerIcon"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/explore-utils.jsx": [
+        "EditIcon",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/title-description-cell.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-search.jsx": [
+        "FormControl"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/display-name-cell.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/explore-page.jsx": [
+        "Typography",
+        "blue"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-edit/queryable-attributes.jsx": [
+        "MUIWarningIcon",
+        "amber"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-edit/multi-select.jsx": [
+        "ArrowDropDown",
+        "ClickAwayListener",
+        "InputAdornment",
+        "MUIPopper",
+        "Paper",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-edit/dimension-edit-modal.jsx": [
+        "Dialog",
+        "MUIDialogContent",
+        "Paper",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-edit/dimension-edit-form.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-edit/shared.jsx": [
+        "MuiChip"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-edit/visibility-toggle.jsx": [
+        "MUISwitch"
+    ],
+    "pipedream/ui/src/app/components/ui-settings/explore/dimension-edit/checkbox-list.jsx": [
+        "MUICheckbox",
+        "MUIFormControlLabel"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-save-dialog.jsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "Paper"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-treemap.jsx": [
+        "FormControlLabel",
+        "Switch",
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-bulk-editor.jsx": [
+        "Typography",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-sidebar.jsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-table.jsx": [
+        "LockIcon",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-table/data-view-table-action-buttons.jsx": [
+        "DeleteIcon",
+        "EditIcon",
+        "IconButton"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-sidebar/data-view-sidebar-protected-switch.jsx": [
+        "FormControlLabel",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-sidebar/data-view-sidebar-slider.jsx": [
+        "FormLabel",
+        "Slider",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-sidebar/data-view-sidebar-name-field.jsx": [
+        "AddCircle",
+        "Collapse",
+        "InputAdornment",
+        "MuiChip",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/data-view/data-view-upsert/data-view-upsert.jsx": [
+        "Typography",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/shared/form-control-info-label.tsx": [
+        "",
+        "Box",
+        "CheckboxProps",
+        "FormControlLabel",
+        "FormControlLabelProps as MUIFormControlLabelProps",
+        "RadioProps",
+        "Theme",
+        "Typography",
+        "grey",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/shared/form-control-info-label.spec.jsx": [
+        "Radio",
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/toggle-confirmation-modal.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/connector-accordion.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/dms-table.tsx": [
+        "Box",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/drawer.tsx": [
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/toggle.tsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/format-row.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/cells/filters-cell.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/cells/details-cell.tsx": [
+        "Box",
+        "LockOutlined",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/cells/interface-cell.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/alerts/alert-details-dialog.tsx": [
+        "Dialog",
+        "DialogActions",
+        "DialogContent",
+        "OpenInNewIcon",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/alerts/alerts-table.tsx": [
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/alerts/unmanaged-dms-notification.tsx": [
+        "LockOutlined"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/alerts/alerts-dialog-tabs/alert-summary-tab.tsx": [
+        "ErrorOutlineIcon",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/alerts/filters/alerts-state-filter.tsx": [
+        "ArrowDropDownIcon"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/alerts/filters/severity-filter.tsx": [
+        "FormControlLabel",
+        "FormGroup"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/actions-menu/actions-menu.tsx": [
+        "MenuItem",
+        "MenuItemProps"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/status/actions-menu/delete-dms-confirmation-modal.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/traffic.tsx": [
+        "Box",
+        "Divider"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/change-bgp-session-dialog.tsx": [
+        "Box",
+        "Dialog",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/management-and-control.tsx": [
+        "Grid",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/dynamic-routing-fields.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/inband-ip-address-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/name-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/input-error-message.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/syslog-switch.tsx": [
+        "Switch",
+        "SwitchBaseProps"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/location-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/section-heading.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/neighbor-ip-address-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/password-text-field.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/emphasized-form-section.tsx": [
+        "Box",
+        "Typography",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/management-ip-address-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/pop-position-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/dynamic-routing-input.tsx": [
+        "Switch",
+        "SwitchBaseProps"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/snmp-switch.tsx": [
+        "Switch",
+        "SwitchBaseProps"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/custom-or-inherited-validated-text-field.tsx": [
+        "",
+        "Box",
+        "Checkbox",
+        "CheckboxProps",
+        "FormControlLabel",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/syslog-ip-address-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/snmp-ip-address-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/description-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/ports/ports-select.tsx": [
+        "Autocomplete",
+        "Checkbox",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/shared/ports/ports-speed-select.tsx": [
+        "Box",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/traffic/ip-addresses.tsx": [
+        "Box",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/traffic/toggle-bfd-liveness-check-checkbox.tsx": [
+        "",
+        "Checkbox",
+        "CheckboxProps",
+        "FormControlLabel",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/traffic/address-families-checkbox-group.tsx": [
+        "",
+        "Checkbox as MUICheckbox",
+        "CheckboxProps as MUICheckboxProps",
+        "FormControl",
+        "FormControlLabel",
+        "FormGroup",
+        "FormLabel",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/traffic/toggle-lacp-checkbox.tsx": [
+        "",
+        "Checkbox",
+        "CheckboxProps",
+        "FormControlLabel",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/traffic/toggle-bfd-checkbox.tsx": [
+        "",
+        "Checkbox",
+        "CheckboxProps",
+        "FormControlLabel",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/static-routing/add-static-route-dialog.tsx": [
+        "Box",
+        "Dialog",
+        "DialogContent"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/static-routing/static-ip-addresses.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/static-routing/liveness-check.tsx": [
+        "FormLabel",
+        "MenuItem"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/static-routing/description-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/groups/unmanaged-groups.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/groups/redirect-target-type-radio-group.tsx": [
+        "",
+        "Box",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/groups/groups.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/unmanaged/netconf-and-grpc.tsx": [
+        "Box",
+        "FormLabel",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/unmanaged/bgp-mitigation.tsx": [
+        "Box",
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/unmanaged/snmp.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/details/password-input.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/add-config/action-toolbar.tsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/connectivity-options/interface-options-input.tsx": [
+        "Grid",
+        "Radio",
+        "RadioGroup",
+        "Typography",
+        "styled"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/connectivity-options/connectivity-options.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/bgp-mitigation/md5-auth-section.tsx": [
+        "",
+        "Checkbox",
+        "FormControlLabel",
+        "FormControlLabelProps as MUIFormControlLabelProps"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/bgp-mitigation/enable-switch.tsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/bgp-mitigation/session-name.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/bgp-mitigation/deepfield-vip.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/snmp/snmp-privacy-type-select.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/snmp/snmp-version-radio-group.tsx": [
+        "",
+        "Box",
+        "FormLabel",
+        "Radio",
+        "RadioGroup",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/snmp/snmp-v3-form.tsx": [
+        "Box",
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/snmp/snmp-auth-type-select.tsx": [
+        "FormLabel"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/configuration/snmp/snmp-security-level-radio-group.tsx": [
+        "",
+        "Box",
+        "FormControlLabel",
+        "FormLabel",
+        "Radio",
+        "RadioGroup"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/control-panel-page.tsx": [
+        "Box",
+        "Grid",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/side-menu.tsx": [
+        "Box",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/header.tsx": [
+        "Box",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/troubleshooting/test.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/troubleshooting/test-connection.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/troubleshooting/reset-confirmation-dialog.tsx": [
+        "List",
+        "ListItem"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/manage-device/factory-reset-warning.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/manage-device/confirmation-modal.tsx": [
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/manage-device/reboot.tsx": [
+        "DnsIcon"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/manage-device/factory-reset.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/manage-device/process.tsx": [
+        "Grid"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/ace/status-details.tsx": [
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/ace/genome-details.tsx": [
+        "ReportProblemIcon",
+        "RestoreIcon"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/misc/configuration-layout.tsx": [
+        "Grid",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/misc/reboot-banner.tsx": [
+        "Box",
+        "CircularProgress",
+        "blue",
+        "makeStyles"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/networking/table-section-global-toggle.tsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/networking/shared/cells/toggle-confirmation-modal.spec.jsx": [
+        "Switch"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/networking/shared/cells/toggle.tsx": [
+        "Switch",
+        "SwitchProps",
+        "styled"
+    ],
+    "pipedream/ui/src/app/components/dms/ui/control-panel/networking/lags/lags-select.tsx": [
+        "",
+        "CircularProgress",
+        "FormLabel",
+        "InputAdornment",
+        "MenuItem",
+        "TextField",
+        "TextFieldProps"
+    ],
+    "pipedream/ui/src/app/components/dms/data/use-dms-networking-notifications.tsx": [
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/layout/sidebar.jsx": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/layout/layout-constants.mjs": [
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/layout/page-header-container.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/time-range-select/time-range-select.jsx": [
+        "MenuItem",
+        "TextField"
+    ],
+    "pipedream/ui/src/app/components/notifications-center/notifications-center.jsx": [
+        "Button",
+        "DeleteIcon",
+        "Divider",
+        "IconButton",
+        "ListItem",
+        "ListItemText",
+        "Portal",
+        "Snackbar"
+    ],
+    "pipedream/ui/src/app/components/notifications-center/message-list.jsx": [
+        "List",
+        "ListItem",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/notifications-center/message-types.mjs": [
+        "CheckCircleIcon",
+        "ErrorIcon",
+        "InfoIcon",
+        "WarningIcon",
+        "amber",
+        "blue",
+        "green",
+        "red"
+    ],
+    "pipedream/ui/src/app/components/navigation/logo-nav.jsx": [
+        "Box"
+    ],
+    "pipedream/ui/src/app/components/navigation/collapse-toggle.jsx": [
+        "Tooltip"
+    ],
+    "pipedream/ui/src/app/components/navigation/cluster-notification-banner.jsx": [
+        "LockIcon"
+    ],
+    "pipedream/ui/src/app/components/navigation/nav-item.jsx": [
+        "Tooltip"
+    ],
+    "pipedream/ui/src/app/components/navigation/user-menu.jsx": [
+        "AccountBoxIcon"
+    ],
+    "pipedream/ui/src/app/components/navigation/navigation.jsx": [
+        "AssessmentIcon",
+        "ClickAwayListener",
+        "DashboardIcon",
+        "SettingsApplicationsIcon"
+    ],
+    "pipedream/ui/src/app/components/navigation/help-menu.jsx": [
+        "HelpOutlineIcon"
+    ],
+    "pipedream/ui/src/app/components/navigation/nav-popover.jsx": [
+        "ClickAwayListener",
+        "Paper",
+        "Portal"
+    ],
+    "pipedream/ui/src/app/components/navigation/sub-menu-item.jsx": [
+        "_MenuItem",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/navigation/feature-flag-nav.jsx": [
+        "Box",
+        "Checkbox",
+        "FlagIcon",
+        "FormControlLabel",
+        "OutlinedFlagIcon",
+        "Switch",
+        "grey"
+    ],
+    "pipedream/ui/src/app/components/navigation/defender-nav-item.jsx": [
+        "",
+        "Badge as MuiBadge",
+        "Box",
+        "ClickAwayListener",
+        "PolicyIcon",
+        "Tooltip",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/navigation/sub-menu.jsx": [
+        "Menu",
+        "withStyles"
+    ],
+    "pipedream/ui/src/app/components/navigation/cluster-notification-popper.jsx": [
+        "ClickAwayListener",
+        "Paper",
+        "Popper",
+        "Typography"
+    ],
+    "pipedream/ui/src/app/components/navigation/navigation-error.jsx": [
+        "ErrorIcon",
+        "Tooltip"
+    ],
+    "pipedream/ui/src/app/components/query-feedback/query-feedback.jsx": [
+        "List",
+        "ListItem",
+        "ListItemText",
+        "MUIWarningIcon",
+        "Popover",
+        "Tooltip",
+        "Typography"
+    ]
+}

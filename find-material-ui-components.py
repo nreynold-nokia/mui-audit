@@ -1,5 +1,6 @@
 import os
 import re
+import json
 
 
 #
@@ -9,7 +10,7 @@ directory_to_search="/home/nreynold/repos/deepfield-bootstrap/pipedream/ui/src/"
 # temp file
 temp_file="mui-audit-output.txt"
 # output
-output_file="mui-audit.txt"
+output_file="mui-audit.json"
 
 import_pattern = re.compile(
     r"import\s+(\{[^\}]*\}|[a-zA-Z0-0_]+)\s+from\s+['\"]@material-ui"
@@ -41,12 +42,19 @@ def search_files_for_imports(directory):
                     if file_path not in results:
                         results[file_path] = []
                     results[file_path].extend(components)
+        for file in results:
+            results[file] = sorted(set(results[file]))
     return results
 
 
-def write_results_to_file(results, output_file):
+def write_results_to_json(results, output_file):
     
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=4)
 
+
+def write_results_to_txt_file(results, output_file):
+    
     with open(output_file, "w", encoding="utf-8") as f:
         for file, components in results.items():
             f.write(f" {file}\n")
@@ -57,5 +65,4 @@ def write_results_to_file(results, output_file):
 
 if __name__ == "__main__":
     results = search_files_for_imports(directory_to_search)
-    write_results_to_file(results, output_file)
-    print(f"Results written to {output_file}")
+    write_results_to_json(results, output_file)

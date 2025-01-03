@@ -2,12 +2,8 @@ from collections import defaultdict
 import os
 import re
 import json
+import argparse
 
-# Search Directory
-directory_to_search="/home/nreynold/repos/deepfield-bootstrap/pipedream/ui/src/"
-
-# temp file
-temp_file="mui-audit-output.txt"
 # output
 output_file="mui-audit.json"
 
@@ -81,5 +77,9 @@ def write_results_to_txt_file(results, output_file):
 
 
 if __name__ == "__main__":
-    results, metadata = search_files_for_imports(directory_to_search)
+
+    parser = argparse.ArgumentParser(description="Scan for Material UI imports in a directory")
+    parser.add_argument("directory", type=str, help="The directory to search for imports")
+    args = parser.parse_args()
+    results, metadata = search_files_for_imports(args.directory)
     write_results_to_json(results, metadata, output_file)

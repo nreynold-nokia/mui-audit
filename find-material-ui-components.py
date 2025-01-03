@@ -1,9 +1,8 @@
+from collections import defaultdict
 import os
 import re
 import json
 
-
-#
 # Search Directory
 directory_to_search="/home/nreynold/repos/deepfield-bootstrap/pipedream/ui/src/"
 
@@ -27,6 +26,7 @@ def extract_components_from_import(line):
 
 def search_files_for_imports(directory):
     results = {}
+    component_counts = defaultdict(int) # track frequency of components
     for root, _, files in os.walk(directory):
         for file in files:
             if file.endswith((".js", ".mjs", ".jsx", ".ts", ".tsx")):
@@ -37,20 +37,36 @@ def search_files_for_imports(directory):
                 # Search import patterns
                 matches = import_pattern.finditer(content)
                 file_path = full_path.split('deepfield-bootstrap/')[1]
+                components = []
                 for match in matches:
-                    components = extract_components_from_import(match.group(0))
-                    if file_path not in results:
-                        results[file_path] = []
-                    results[file_path].extend(components)
-        for file in results:
-            results[file] = sorted(set(results[file]))
-    return results
+                    components.extend(extract_components_from_import(match.group(0)))
+                if components:
+                    # remove duplicates and sort
+                    unique_components = sorted(set(components))
+                    results[file_path] = {
+                        "imports":unique_components,
+                        "count": len(unique_components)
+                    }
+                    for component in unique_components:
+                        component_counts[component] += 1
+    metadata = {
+        "component_frequency" : sorted(
+            [{"name": comp, "frequency": freq} for comp, freq in component_counts.items()],
+            key=lambda x: x["frequency"],
+            reverse=True
+        )
+    }
+    return results, metadata
 
 
-def write_results_to_json(results, output_file):
+def write_results_to_json(results, metadata, output_file):
     
+    data = {
+        "files": results,
+        "metadata": metadata
+    }
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=4)
+        json.dump(data, f, indent=4)
 
 
 def write_results_to_txt_file(results, output_file):
@@ -63,22 +79,7 @@ def write_results_to_txt_file(results, output_file):
 
             f.write("\n")
 
-# List of components with counts
-def get_metadata(results):
-
-    metadata = {}
-    for filename, import_list in results.items():
-        for mui_component in import_list:
-            if mui_component not in metadata:
-                metadata[mui_component] = 1
-            else:
-                metadata[mui_component] += 1
-    return metadata
-
 
 if __name__ == "__main__":
-    results = search_files_for_imports(directory_to_search)
-    metadata = get_metadata(results)
-    print(metadata)
-    results['metadata'] = metadata
-    write_results_to_json(results, output_file)
+    results, metadata = search_files_for_imports(directory_to_search)
+    write_results_to_json(results, metadata, output_file)
